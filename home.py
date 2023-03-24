@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 import pickle
 
 def main():
-    loaded_model = pickle.load(open('final_model.pkl', 'rb'))
+    loaded_model = pickle.load(open('https://github.com/Dharmik34/Bank-Term-Deposit-Subscription/blob/master/model.pkl', 'rb'))
     st.title("Check whether :bust_in_silhouette: client will :bell: subscribe a term deposit:money_with_wings:?")
     st.caption(':red[ All the filed values are required ]')
 
